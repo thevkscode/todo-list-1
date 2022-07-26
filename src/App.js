@@ -1,9 +1,12 @@
 import './App.css';
-import TodoItem from "./TodoItem";
+// import TodoItem from "./TodoItem";
+import Todo from './Todo'
 function App() {
   return (
     <div className="App">
-      <TodoItem/>
+      <div className='todo-list'>
+      <Todo/>
+      </div>
     </div>
   );
 }
